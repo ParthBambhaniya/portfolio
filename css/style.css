@@ -75,8 +75,8 @@ body.dark-mode #themeBtn{
 }
 
 .about-img{
-    width:300px;
-    height:300px;
+    width:400px;
+    height:400px;
     object-fit:cover;
     border-radius:15px;
     transition:0.3s;
