@@ -1,0 +1,220 @@
+/* body{
+    background:#f5f7fa;
+    font-family:Arial,sans-serif;
+}
+
+.about-section{
+    padding:100px 0;
+}
+
+.editor{
+
+    background:#0d1117;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.25);
+
+}
+
+.editor-header{
+
+    background:#161b22;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 22px;
+
+}
+
+.window-btns{
+
+    display:flex;
+
+    gap:10px;
+
+}
+
+.window-btns span{
+
+    width:14px;
+
+    height:14px;
+
+    border-radius:50%;
+
+}
+
+.red{
+
+    background:#ff5f57;
+
+}
+
+.yellow{
+
+    background:#febc2e;
+
+}
+
+.green{
+
+    background:#28c840;
+
+}
+
+.tabs{
+
+    display:flex;
+
+    gap:10px;
+
+}
+
+.tab{
+
+    padding:8px 15px;
+
+    background:#21262d;
+
+    border-radius:8px;
+
+    color:#8b949e;
+
+    font-size:14px;
+
+}
+
+.tab.active{
+
+    color:white;
+
+}
+
+.editor-body{
+
+    padding:30px;
+
+}
+
+pre{
+
+    margin:0;
+
+    white-space:pre-wrap;
+
+}
+
+code{
+
+    font-family:'Fira Code',monospace;
+
+    font-size:17px;
+
+    line-height:2;
+
+}
+
+.keyword{
+
+    color:#ff7b72;
+
+}
+
+.variable{
+
+    color:#79c0ff;
+
+}
+
+.property{
+
+    color:#79c0ff;
+
+}
+
+.string{
+
+    color:#a5d6a7;
+
+}
+
+@media(max-width:992px){
+
+.editor{
+
+margin-top:40px;
+
+}
+
+} */
+
+.code-card{
+    background:#161b22;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 20px 40px rgba(0,0,0,.3);
+    color:#fff;
+}
+
+.code-header{
+    background:#20232a;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 20px;
+}
+
+.dots{
+    display:flex;
+    gap:10px;
+}
+
+.dots span{
+    width:14px;
+    height:14px;
+    border-radius:50%;
+}
+
+.red{
+    background:#ff5f57;
+}
+
+.yellow{
+    background:#febc2e;
+}
+
+.green{
+    background:#28c840;
+}
+
+.tabs{
+    display:flex;
+    gap:15px;
+    font-size:15px;
+    color:#999;
+}
+
+.tabs .active{
+    color:#fff;
+    font-weight:bold;
+}
+
+pre{
+    margin:0;
+    padding:25px;
+    overflow:auto;
+}
+
+code{
+    font-family:Consolas, monospace;
+    font-size:18px;
+    line-height:1.8;
+    color:#7ee787;
+}
